@@ -40,12 +40,3 @@ class ProductManager {
         console.error("Not Found");
     }
 }
-
-const products = new ProductManager();
-products.addProduct('Manzana', 'Manzana roja', 100, 'Manzanaroja.com', 12345, 5);
-products.addProduct('Banana', 'Banana', 100, 'abc123', 1222, 2);
-
-console.log(products.getProductById(1))
-
-
-
